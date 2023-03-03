@@ -133,8 +133,9 @@ body {
     align-items: center;
     font-weight: bold;
     padding-top: 2rem;
-    /* justify-content: left; */
+    justify-content: left;
     white-space: nowrap;
+    padding-left: 1rem;
 }
 
 .title-trend h2 {
@@ -236,8 +237,9 @@ main .divisore {
 }
 
 .articolo {
-    display: inline-block;
-
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
 
 }
 
@@ -254,8 +256,11 @@ main .divisore {
 
 .articolo .img-art img {
     width: 180px;
+    height: 110px;
 
 }
+
+
 
 .user-art img {
     border-radius: 5px;
@@ -282,4 +287,8 @@ main .divisore {
 
 .bookmark {
     margin-left: 7rem;
+}
+
+.cont-art {
+    width: 20.5rem;
 }
