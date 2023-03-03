@@ -130,19 +130,19 @@ body {
 
 }
 
-/* .cont-title {
+.cont-title {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-} */
+}
 
 .title-trend {
     display: flex;
     align-items: center;
     font-weight: bold;
     padding-top: 2rem;
-    justify-content: left;
-    white-space: nowrap;
     padding-left: 1rem;
 }
 
@@ -231,11 +231,17 @@ body {
     position: relative;
 }
 
+
+
+
 main .divisore {
     border: none;
     height: 1.5px;
     background-color: rgba(213, 213, 213, 0.345);
 }
+
+
+
 
 .articoli {
     display: flex;
@@ -243,7 +249,9 @@ main .divisore {
     align-items: center;
     flex-direction: column;
     padding-top: 3rem;
-
+    /*  padding-right: 3rem; */
+    white-space: nowrap;
+    vertical-align: middle;
 }
 
 .articolo {
@@ -253,6 +261,11 @@ main .divisore {
 
 }
 
+.articolo h2,
+h3 {
+    font-size: 1.4rem;
+
+}
 
 .articolo h2 {
     font-weight: bold;
@@ -265,9 +278,10 @@ main .divisore {
 
 
 .articolo .img-art img {
-    width: 180px;
-    height: 110px;
-
+    width: 200px;
+    height: 130px;
+    padding-left: 5rem;
+    box-sizing: content-box;
 }
 
 
@@ -307,8 +321,9 @@ main .divisore {
     position: sticky;
     top: 0px;
     justify-self: flex-start;
-    width: 37rem;
-    padding: 1rem 5rem;
+    width: 33rem;
+    padding: 1rem;
+    margin-left: 2rem;
 }
 
 section {
