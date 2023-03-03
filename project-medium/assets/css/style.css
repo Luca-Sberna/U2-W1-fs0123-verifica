@@ -230,16 +230,18 @@ main .divisore {
 }
 
 .articoli {
-    /*   display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    flex-direction: column;
     padding-top: 3rem;
+
 }
 
 .articolo {
     display: flex;
     flex-direction: row;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -280,7 +282,6 @@ main .divisore {
     display: flex;
     font-size: 12px;
     color: rgb(100, 100, 100);
-    position: relative;
     justify-content: left;
     align-items: center;
 }
@@ -291,4 +292,18 @@ main .divisore {
 
 .cont-art {
     width: 20.5rem;
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+}
+
+aside {
+    display: flex;
+    position: sticky;
+    top: 0;
+    max-width: 40%;
+
+
 }
