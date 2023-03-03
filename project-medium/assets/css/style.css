@@ -8,6 +8,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
 .top-bar {
 
@@ -294,16 +299,28 @@ main .divisore {
     width: 20.5rem;
 }
 
+.sticky {
+    /*  display: flex; */
+    position: sticky;
+    top: 60px;
+}
+
 section {
     display: flex;
     align-items: flex-start;
 }
 
 aside {
-    display: flex;
+    width: 100%;
     position: sticky;
+    flex-direction: column;
     top: 0;
-    max-width: 40%;
+    flex-basis: 70%;
 
+}
 
+.side-box {}
+
+.container-section {
+    display: flex;
 }
