@@ -302,7 +302,10 @@ main .divisore {
 .sticky {
     /*  display: flex; */
     position: sticky;
-    top: 60px;
+    top: 0px;
+    justify-self: flex-start;
+    width: 37rem;
+    padding: 2.5rem 6rem;
 }
 
 section {
@@ -310,17 +313,39 @@ section {
     align-items: flex-start;
 }
 
-aside {
-    width: 100%;
-    position: sticky;
-    flex-direction: column;
-    top: 0;
-    flex-basis: 70%;
-
-}
-
-.side-box {}
 
 .container-section {
     display: flex;
+
+}
+
+.sticky h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+}
+
+.sticky a {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+.sticky .sticky-first a {
+    border: 1px solid rgba(207, 207, 207, 0.392);
+    padding-inline: 0.5rem;
+    padding-block: 0.2rem;
+    border-radius: 3px;
+    margin-inline: 0.6rem;
+}
+
+.sticky .sticky-second a {
+    margin-right: 1rem;
+
+}
+
+.sticky .sticky-first,
+.sticky-second {
+    margin-block: 2.3rem;
+    line-height: 2.2rem;
+
 }
