@@ -44,7 +44,7 @@ body {
     text-decoration: none;
 }
 
-.menu .top-bar-btn {
+.top-bar-btn {
     text-align: center;
     margin-left: 0.8rem;
     border-radius: 1.5rem;
@@ -59,7 +59,8 @@ body {
 }
 
 .green {
-    color: #1a8917;
+    background-color: #1a8917;
+
 }
 
 
