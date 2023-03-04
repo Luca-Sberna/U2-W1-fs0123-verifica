@@ -174,7 +174,7 @@ button {
     color: rgba(178, 178, 178, 0.4);
     font-size: 1.7rem;
     margin-right: 1.3rem;
-    justify-content: flex-start;
+
 }
 
 .user {
@@ -226,6 +226,16 @@ button {
 
 .info p {
     margin-inline: 0.5rem;
+}
+
+/*  */
+.star {
+    transition: transform 0.5s ease-in-out;
+}
+
+.star:hover {
+    transform: rotate(360deg);
+
 }
 
 
