@@ -123,14 +123,14 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    justify-content: space-around;
 }
 
 .cont-trend {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 75%;
+
 
 }
 
@@ -141,7 +141,7 @@ body {
     font-weight: bold;
     padding-top: 2rem;
     padding-left: 1rem;
-    width: 75rem;
+    width: 95rem;
 
 }
 
@@ -155,12 +155,16 @@ body {
     margin-block: 1rem 1.5rem;
     flex-grow: 1;
     flex-basis: 33.33%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .number {
     color: rgba(178, 178, 178, 0.4);
     font-size: 1.7rem;
     margin-right: 1.3rem;
+    justify-content: flex-start;
 }
 
 .user {
@@ -180,8 +184,9 @@ body {
 
 }
 
-/* .user-box {
-    justify-content: space-between;
+/* 
+.user-box {
+    align-items: flex-start;
 } */
 
 
@@ -203,19 +208,19 @@ body {
 .info span {
     font-size: 1rem;
     position: absolute;
-    left: 2.8rem;
-    top: -5px;
+    left: 50px;
+    top: -7px;
 
 
 }
 
 .info p {
-    padding-inline: 0.5rem;
+    margin-inline: 0.5rem;
 }
 
 
 
-.first-row {
+/* .first-row {
     display: flex;
     gap: 7rem;
     justify-content: space-between;
@@ -227,7 +232,7 @@ body {
     gap: 7rem;
     justify-content: space-between;
     position: relative;
-}
+} */
 
 
 
