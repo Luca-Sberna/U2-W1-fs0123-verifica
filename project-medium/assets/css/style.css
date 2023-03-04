@@ -283,7 +283,7 @@ h3 {
 .articolo .img-art img {
     width: 200px;
     height: 130px;
-    padding-left: 5rem;
+    padding-left: 2rem;
     box-sizing: content-box;
 }
 
@@ -312,11 +312,13 @@ h3 {
 }
 
 .bookmark {
-    margin-left: 7rem;
+    margin-left: 15rem;
+
 }
 
 .cont-art {
-    width: 20.5rem;
+    width: 27.5rem;
+    flex-wrap: wrap;
 }
 
 
