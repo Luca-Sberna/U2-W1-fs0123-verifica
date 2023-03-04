@@ -8,6 +8,13 @@ body {
     box-sizing: border-box;
 }
 
+img,
+button {
+    cursor: pointer;
+}
+
+
+
 .top-bar {
 
     display: flex;
@@ -52,6 +59,7 @@ body {
     background-color: rgb(19, 19, 19);
     color: white;
     border: transparent;
+    cursor: pointer;
 }
 
 .white {

@@ -1,3 +1,4 @@
+//scrolltrigger
 let scrollTopBar = 450;
 
 window.onscroll = function () {
@@ -12,5 +13,16 @@ window.onscroll = function () {
         document.querySelector('.top-bar-btn').classList.remove('green');
     }
 };
+
+// M dinamiche 
+
+let m = document.querySelectorAll("svg  path")
+
+let animation = setInterval(() => {
+    let random = Math.floor(Math.random() * m.length)
+    let mSelected = m[random]
+    mSelected.style.opacity || mSelected.style.opacity === "0" ? mSelected.style.opacity = 1 : mSelected.style.opacity = 0
+}, 200);
+
 
 
