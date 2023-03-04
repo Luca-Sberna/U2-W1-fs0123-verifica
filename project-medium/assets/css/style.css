@@ -11,7 +11,7 @@ body {
 .top-bar {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #ffc017;
     padding: 25px 5rem;
     border-bottom: 1.7px solid rgb(19, 19, 19);
@@ -71,19 +71,18 @@ body {
     display: flex;
     background-color: #ffc017;
     position: relative;
-
-    padding-left: 5rem;
+    justify-content: space-around;
     /* overflow: hidden; */
     border-bottom: 1.7px solid rgb(19, 19, 19);
     font-family: 'Spectral', serif;
+    width: 100%;
 }
 
 #hero-box #hero-content {
     display: flex;
     flex-direction: column;
-    padding-block: 93px 92px;
-
-
+    padding-block: 93px;
+    width: 72rem;
 }
 
 #hero-content h2 {
@@ -112,31 +111,29 @@ body {
     top: 0;
     right: 0;
     height: 28.5rem;
-}
-
-
-
-
-.cont-trend {
-    display: flex;
-    justify-content: center;
-
 
 }
 
-.trend {
-    display: inline-block;
 
 
-}
+
+
 
 .cont-title {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 
 }
+
+.cont-trend {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+
+}
+
 
 .title-trend {
     display: flex;
@@ -144,6 +141,8 @@ body {
     font-weight: bold;
     padding-top: 2rem;
     padding-left: 1rem;
+    width: 75rem;
+
 }
 
 .title-trend h2 {
@@ -154,9 +153,8 @@ body {
 .trend-post {
     display: flex;
     margin-block: 1rem 1.5rem;
-    /* padding: 1rem 9rem; */
-    /* white-space: nowrap; */
-    box-sizing: content-box;
+    flex-grow: 1;
+    flex-basis: 33.33%;
 }
 
 .number {
@@ -182,9 +180,9 @@ body {
 
 }
 
-.user-box {
-    width: 100%;
-}
+/* .user-box {
+    justify-content: space-between;
+} */
 
 
 .title-post {
@@ -220,14 +218,14 @@ body {
 .first-row {
     display: flex;
     gap: 7rem;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
 }
 
 .second-row {
     display: flex;
     gap: 7rem;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
 }
 
