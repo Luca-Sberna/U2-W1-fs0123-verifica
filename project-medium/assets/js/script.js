@@ -22,7 +22,7 @@ let animation = setInterval(() => {
     let random = Math.floor(Math.random() * m.length)
     let mSelected = m[random]
     mSelected.style.opacity || mSelected.style.opacity === "0" ? mSelected.style.opacity = 1 : mSelected.style.opacity = 0
-}, 200);
+}, 150);
 
 
 
