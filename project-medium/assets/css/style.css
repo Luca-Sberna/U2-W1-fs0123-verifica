@@ -82,7 +82,6 @@ button {
     background-color: #ffc017;
     position: relative;
     justify-content: space-around;
-    /* overflow: hidden; */
     border-bottom: 1.7px solid rgb(19, 19, 19);
     font-family: 'Spectral', serif;
     width: 100%;
@@ -194,11 +193,6 @@ button {
 
 }
 
-/* 
-.user-box {
-    align-items: flex-start;
-} */
-
 
 .title-post {
     margin-block: 0.5rem;
@@ -221,14 +215,16 @@ button {
     left: 50px;
     top: -7px;
 
-
 }
 
 .info p {
     margin-inline: 0.5rem;
 }
 
-/*  */
+
+
+
+/*avrei dovuto chiamarla rotate, è stata assegnata non solo alle star   */
 .star {
     transition: transform 0.5s ease-in-out;
 }
@@ -238,21 +234,6 @@ button {
 
 }
 
-
-
-/* .first-row {
-    display: flex;
-    gap: 7rem;
-    justify-content: space-between;
-    position: relative;
-}
-
-.second-row {
-    display: flex;
-    gap: 7rem;
-    justify-content: space-between;
-    position: relative;
-} */
 
 
 
@@ -272,7 +253,6 @@ main .divisore {
     align-items: center;
     flex-direction: column;
     padding-top: 3rem;
-    /*  padding-right: 3rem; */
     white-space: nowrap;
     vertical-align: middle;
 }
@@ -339,8 +319,10 @@ h3 {
     width: 20.5rem;
 }
 
+
+
+
 .sticky {
-    /*  display: flex; */
     position: sticky;
     top: 0px;
     justify-self: flex-start;
