@@ -97,6 +97,7 @@ button {
 #hero-content h2 {
     font-size: 6rem;
     white-space: nowrap;
+    letter-spacing: -5px;
 }
 
 #hero-content h3 {
@@ -133,6 +134,7 @@ button {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+
 }
 
 .cont-trend {
@@ -150,7 +152,7 @@ button {
     font-weight: bold;
     padding-top: 2rem;
     padding-left: 1rem;
-    width: 95rem;
+    /*  width: 95rem; */
 
 }
 
@@ -173,7 +175,7 @@ button {
     color: rgba(178, 178, 178, 0.4);
     font-size: 1.7rem;
     margin-right: 1.3rem;
-
+    font-weight: bold;
 }
 
 .user {
@@ -328,7 +330,7 @@ h3 {
     position: sticky;
     top: 0px;
     justify-self: flex-start;
-    width: 33rem;
+    width: 25rem;
     padding: 1rem;
     margin-left: 2rem;
 }
